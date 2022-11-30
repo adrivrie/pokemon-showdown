@@ -322,7 +322,7 @@ export class Battle {
 
 	suppressingAbility(target?: Pokemon) {
 		return this.activePokemon && this.activePokemon.isActive && (this.activePokemon !== target || this.gen < 8) &&
-			this.activeMove && this.activeMove.ignoreAbility;
+			this.activeMove && this.activeMove.ignoreAbility && !target?.hasItem('Ability Shield');
 	}
 
 	setActiveMove(move?: ActiveMove | null, pokemon?: Pokemon | null, target?: Pokemon | null) {
@@ -1459,9 +1459,9 @@ export class Battle {
 					moveSlot.disabledSource = '';
 				}
 				this.runEvent('DisableMove', pokemon);
-				if (!pokemon.ateBerry) pokemon.disableMove('belch');
-				if (!pokemon.getItem().isBerry) pokemon.disableMove('stuffcheeks');
-				if (pokemon.lastMove?.id === 'gigatonhammer') pokemon.disableMove('gigatonhammer');
+				for (const moveSlot of pokemon.moveSlots) {
+					this.singleEvent('DisableMove', this.dex.getActiveMove(moveSlot.id), null, pokemon);
+				}
 
 				// If it was an illusion, it's not any more
 				if (pokemon.getLastAttackedBy() && this.gen >= 7) pokemon.knownType = true;
