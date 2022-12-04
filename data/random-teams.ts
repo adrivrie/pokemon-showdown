@@ -760,6 +760,10 @@ export class RandomTeams {
 			}
 		}
 
+		// Tera Type Pool
+		const doTeraTypesExist = this.gen === 9;
+		const teraTypePool = [...this.dex.types.all()];
+
 		const randomN = this.randomNPokemon(this.maxTeamSize, this.forceMonotype, undefined,
 			hasCustomBans ? ruleTable : undefined);
 
@@ -823,6 +827,12 @@ export class RandomTeams {
 				nature = this.sample(naturePool).name;
 			}
 
+			// Random Tera Type
+			let teraType = '';
+			if (doTeraTypesExist) {
+				teraType = this.sample(teraTypePool).name;
+			}
+
 			// Level balance
 			const mbstmin = 1307;
 			const stats = species.baseStats;
@@ -869,6 +879,7 @@ export class RandomTeams {
 				level,
 				happiness,
 				shiny,
+				teraType,
 			});
 		}
 
