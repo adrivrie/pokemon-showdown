@@ -109,6 +109,13 @@ if (!process.argv[2] || /^[0-9]+$/.test(process.argv[2])) {
 			console.log(Teams.pack(Teams.generate(process.argv[3], {seed})));
 		}
 		break;
+	case 'generate-teams':
+		{
+			ensureBuilt();
+			var Teams = require('./dist/sim/teams.js').Teams;
+			Teams.generateMultiple(process.argv[4], process.argv[3]);
+		}
+		break;
 	case 'validate-team':
 		{
 			ensureBuilt();
