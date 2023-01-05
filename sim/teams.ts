@@ -629,16 +629,15 @@ export const Teams = new class Teams {
 		return this.getGenerator(format, options?.seed).getTeam(options);
 	}
 
-	generateMultiple(format: Format | string, n: Number | null = null) {
+	generateMultiple(format: Format | string, n: number | null = null) {
 		n = n || 10;
-		var generator = this.getGenerator(format);
+		const generator = this.getGenerator(format);
 		console.log("Team id;Species;Role;Move1;Move2;Move3;Move4;Ability;Item;Tera type");
-		for(let i=0; i < n; i++){
-			let team = generator.getTeam();
-			for(let j=0; j < team.length; j++){
-				let mon = team[j];
-				let moves = mon.moves.sort();
-				console.log(`${i};${mon.species};${mon.role||''};${mon.moves[0]||''};${mon.moves[1]||''};${mon.moves[2]||''};${mon.moves[3]||''};${mon.ability||''};${mon.item||''};${mon.teraType||''}`)
+		for (let i = 0; i < n; i++) {
+			const team = generator.getTeam();
+			for (const mon of team) {
+				const moves = mon.moves.sort();
+				console.log(`${i};${mon.species};${mon.role || ''};${moves[0] || ''};${moves[1] || ''};${moves[2] || ''};${moves[3] || ''};${mon.ability || ''};${mon.item || ''};${mon.teraType || ''}`);
 			}
 			if (!(i % 100)) console.error(i);
 		}
