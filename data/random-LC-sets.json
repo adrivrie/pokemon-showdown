@@ -1,0 +1,1682 @@
+{
+    "applin": {
+        "level": 10,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Astonish", "Defense Curl", "Pounce", "Recycle", "Rollout", "Sucker Punch", "Tera Blast"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "arrokuda": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Aqua Jet", "Cloce Combat", "Crunch", "Drill Run", "Hydro Pump", "Ice Fang", "Liquidation", "Psychic Fangs", "Rain Dance"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "axew": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Aqua Tail", "Brick Break", "Crunch", "Dragon Dance", "First Impression", "Iron Head", "Outrage", "Poison Jab", "Stomping Tantrum", "Swords Dance", "Taunt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "azurill": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Aqua Jet", "Belly Drum", "Body Slam", "Charm", "Draining Kiss", "Encore", "Facade", "Ice Beam", "Waterfall"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "bagon": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Body Slam", "Crunch", "Dragon Claw", "Dragon Dance", "Fire Blast", "Iron Head", "Outrage", "Rock Slide", "Zen Headbutt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "barboach": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Aqua Tail", "Dragon Dance", "Earthquake", "Hydro Pump", "Ice Beam", "Liquidation", "Stealth Rock", "Stone Edge", "Zen Headbutt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "bergmite": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Avalanche", "Body Slam", "Crunch", "Curse", "Ice Spinner", "Rapid Spin", "Recover", "Stone Edge"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "bonsly": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Body Slam", "Curse", "Double-Edge", "Earthquake", "Foul Play", "Rock Slide", "Spikes", "Stealth Rock", "Stone Edge", "Sucker Punch"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "bounsweet": {
+        "level": 10,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Charm", "Dazzling Gleam", "Energy Ball", "Giga Drain", "Leaf Storm", "Light Screen", "Play Rough", "Rapid Spin", "Reflect", "Synthesis"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "bramblin": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Disable", "Leech Seed", "Phantom Force", "Power Whip", "Protect", "Rapid Spin", "Shadow Sneak", "Spikes", "Strength Sap"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "bronzor": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Calm Mind", "Earthquake", "Flash Cannon", "Future Sight", "Ice Spinner", "Iron Head", "Light Screen", "Psychic", "Psyshock", "Recycle", "Reflect", "Shadow Ball", "Stealth Rock", "Zen Headbutt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "buizel": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Agility", "Aqua Jet", "Baton Pass", "Brick Break", "Bulk Up", "Crunch", "Hydro Pump", "Ice Beam", "Ice Spinner", "Liquidation", "Taunt", "Wave Crash"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "cacnea": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Dark Pulse", "Destiny Bond", "Drain Punch", "Encore", "Energy Ball", "Foul Play", "Giga Drain", "Leaf Storm", "Leech Seed", "Nasty Plot", "Poison Jab", "Seed Bomb", "Spikes", "Sucker Punch", "Swords Dance", "Thunder Punch", "Toxic Spikes", "Trailblaze"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "capsakid": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Crunch", "Energy Ball", "Giga Drain", "Leaf Storm", "Leech Seed", "Protect", "Seed Bomb", "Solar Beam", "Stomping Tantrum", "Sunny Day", "Trailblaze", "Zen Headbutt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "cetoddle": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Belly Drum", "Body Slam", "Earthquake", "Ice Shard", "Icicle Crash", "Liquidation", "Play Rough", "Superpower", "Yawn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "charcadet": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Clear Smog", "Destiny Bond", "Disable", "Fire Blast", "Flame Charge", "Flare Blitz", "Lava Plume", "Overheat", "Will-O-Wisp"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "charmander": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Belly Drum", "Crunch", "Dragon Claw", "Dragon Dance", "Fire Blast", "Flame Charge", "Flare Blitz", "Focus Blast", "Outrage", "Rock Slide", "Swords Dance", "Thunder Punch", "Will-O-Wisp"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "chewtle": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Crunch", "Hydro Pump", "Ice Fang", "Liquidation", "Poison Jab", "Shell Smash", "Stomping Tantrum", "Surf"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "clauncher": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Aqua Jet", "Aura Sphere", "Crabhammer", "Dark Pulse", "Dragon Pulse", "Flash Cannon", "Hone Claws", "Hydro Pump", "Ice Beam", "Rock Slide", "Swords Dance", "U-turn", "Water Pulse"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "combee": {
+        "level": 10,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Bug Bite", "Bug Buzz", "Gust", "Sleep Talk", "Struggle Bug", "Tera Blast"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "crabrawler": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Bulk Up", "Close Combat", "Crabhammer", "Drain Punch", "Earthquake", "Gunk Shot", "Ice Punch", "Iron Head", "Rock Slide", "Thunder Punch", "Zen Headbutt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "croagunk": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Baton Pass", "Bulk Up", "Bullet Punch", "Cross Chop", "Drain Punch", "Earthquake", "Encore", "Fake Out", "Focus Blast", "Gunk Shot", "Nasty Plot", "Sludge Bomb", "Substitute", "Sucker Punch", "Taunt", "Toxic", "Vacuum Wave"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "cubchoo": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Blizzard", "Crunch", "Encore", "Ice Punch", "Liquidation", "Play Rough", "Rock Slide", "Snowscape", "Taunt", "Yawn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "cufant": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Curse", "Earth Power", "Earthquake", "Heavy Slam", "Iron Head", "Play Rough", "Rock Slide", "Stealth Rock", "Superpower", "Zen Headbutt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "deerling": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Agility", "Baton Pass", "Body Slam", "Double-Edge", "Energy Ball", "Giga Drain", "Headbutt", "Leaf Storm", "Leech Seed", "Light Screen", "Play Rough", "Protect", "Seed Bomb", "Substitute", "Synthesis", "Thunder Wave", "Trailblaze", "Zen Headbutt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "deino": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Body Slam", "Crunch", "Draco Meteor", "Earth Power", "Fire Fang", "Head Smash", "Outrage", "Taunt", "Thunder Wave", "Work Up"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "diglett": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Earthquake", "Foul Play", "Rock Slide", "Stealth Rock", "Stone Edge", "Sucker Punch", "Swords Dance"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "dratini": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Aqua Tail", "Draco Meteor", "Dragon Dance", "Extreme Speed", "Fire Blast", "Ice Beam", "Iron Head", "Outrage", "Rest", "Sleep Talk", "Thunderbolt", "Thunder Wave"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "dreepy": {
+        "level": 9,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Baton Pass", "Disable", "Draco Meteor", "Infestation", "Substitute", "Sucker Punch", "Thunder Wave"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "drifloon": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Acrobatics", "Baton Pass", "Calm Mind", "Defog", "Destiny Bond", "Explosion", "Haze", "Hex", "Memento", "Psychic", "Shadow Ball", "Thunderbolt", "Thunder Wave", "Will-O-Wisp"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "drowzee": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Body Slam", "Calm Mind", "Dazzling Gleam", "Disable", "Drain Punch", "Encore", "Focus Blast", "Foul Play", "Future Sight", "Hypnosis", "Ice Punch", "Light Screen", "Nasty Plot", "Psychic", "Psyshock", "Reflect", "Shadow Ball", "Taunt", "Thunder Wave", "Zen Headbutt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "eevee": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Baton Pass", "Body Slam", "Calm Mind", "Curse", "Double-Edge", "Hyper Voice", "Protect", "Quick Attack", "Shadow Ball", "Trailblaze", "Wish", "Yawn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "fidough": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Baton Pass", "Body Slam", "Charm", "Crunch", "Dazzling Gleam", "Fire Fang", "Ice Fang", "Play Rough", "Protect", "Psychic Fangs", "Stomping Tantrum", "Wish", "Work Up", "Yawn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "finizen": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Agility", "Aqua Jet", "Aqua Tail", "Boomburst", "Encore", "Hydro Pump", "Ice Beam", "Liquidation", "Zen Headbutt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "finneon": {
+        "level": 9,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Agility", "Aqua Tail", "Dazzling Gleam", "Hydro Pump", "Ice Beam", "Tailwind", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "flabebe": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Baton Pass", "Calm Mind", "Energy Ball", "Giga Drain", "Moonblast", "Protect", "Synthesis", "Wish"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "fletchling": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Acrobatics", "Brave Bird", "Defog", "Facade", "Flare Blitz", "Hurricane", "Overheat", "Quick Attack", "Roost", "Swords Dance", "Tailwind", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "fomantis": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Defog", "Leaf Storm", "Leech Life", "Synthesis"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "foongus": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Clear Smog", "Energy Ball", "Foul Play", "Giga Drain", "Leaf Storm", "Seed Bomb", "Sludge Bomb", "Spore", "Stun Spore", "Synthesis", "Toxic"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "frigibax": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Aqua Tail", "Crunch", "Dragon Claw", "Freeze-Dry", "Icicle Crash", "Outrage", "Swords Dance"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "froakie": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Acrobatics", "Hydro Pump", "Ice Beam", "Rock Slide", "Spikes", "Surf", "Switcheroo", "Taunt", "Toxic Spikes", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "fuecoco": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Crunch", "Encore", "Fire Blast", "Flame Charge", "Flamethrower", "Flare Blitz", "Seed Bomb", "Slack Off", "Stomping Tantrum", "Will-O-Wisp", "Yawn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "gastly": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Dazzling Gleam", "Destiny Bond", "Disable", "Nasty Plot", "Psychic", "Shadow Ball", "Sludge Bomb", "Substitute", "Sucker Punch", "Taunt", "Thunderbolt", "Toxic", "Trick", "Will-O-Wisp"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "gible": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Draco Meteor", "Dragon Claw", "Earthquake", "Fire Blast", "Outrage", "Stealth Rock", "Stone Edge", "Swords Dance"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "gimmighoul": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Light Screen", "Nasty Plot", "Power Gem", "Reflect", "Shadow Ball", "Substitute"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "gimmighoulroaming": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Light Screen", "Nasty Plot", "Power Gem", "Reflect", "Shadow Ball", "Substitute"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "glimmet": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Dazzling Gleam", "Light Screen", "Memento", "Sludge Bomb", "Sludge Wave", "Spikes", "Stealth Rock", "Toxic", "Toxic Spikes", "Venoshock"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "goomy": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Body Slam", "Curse", "Draco Meteor", "Rest", "Rock Slide", "Sleep Talk", "Sludge Bomb", "Thunderbolt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "gothita": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Calm Mind", "Charm", "Dark Pulse", "Energy Ball", "Fake Out", "Future Sight", "Light Screen", "Nasty Plot", "Psychic", "Psyshock", "Reflect", "Shadow Ball", "Taunt", "Thunderbolt", "Thunder Wave", "Tickle", "Trick"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "greavard": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Crunch", "Bulldoze", "Destiny Bond", "Disable", "Fire Fang", "Memento", "Phantom Force", "Play Rough", "Psychic Fangs", "Shadow Ball", "Shadow Sneak", "Stomping Tantrum", "Yawn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "grimer": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Curse", "Drain Punch", "Fire Blast", "Fire Punch", "Flamethrower", "Giga Drain", "Gunk Shot", "Haze", "Ice Punch", "Poison Jab", "Rest", "Shadow Sneak", "Taunt", "Toxic"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "growlithe": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Close Combat", "Crunch", "Fire Blast", "Flame Charge", "Flamethrower", "Flare Blitz", "Morning Sun", "Play Rough", "Wild Charge", "Will-O-Wisp"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "growlithehisui": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Agility", "Close Combat", "Crunch", "Fire Blast", "Flame Charge", "Flamethrower", "Flare Blitz", "Head Smash", "Morning Sun", "Play Rough", "Stealth Rock", "Wild Charge", "Will-O-Wisp"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "gulpin": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Encore", "Fire Punch", "Giga Drain", "Gunk Shot", "Ice Beam", "Ice Punch", "Pain Split", "Sludge Bomb", "Swords Dance", "Thunder Wave", "Toxic", "Toxic Spikes", "Yawn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "happiny": {
+        "level": 10,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Charm", "Heal Bell", "Hyper Voice", "Icy Wind", "Psychic", "Shadow Ball", "Thunder Wave"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "hatenna": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Baton Pass", "Calm Mind", "Dark Pulse", "Dazzling Gleam", "Giga Drain", "Healing Wish", "Light Screen", "Mystical Fire", "Nuzzle", "Play Rough", "Psychic", "Psyshock", "Reflect"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "hippopotas": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Body Press", "Crunch", "Curse", "Earthquake", "Slack Off", "Stealth Rock", "Stone Edge", "Whirlwind", "Yawn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "hoppip": {
+        "level": 9,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Acrobatics", "Baton Pass", "Cotton Guard", "Dazzling Gleam", "Encore", "Energy Ball", "Giga Drain", "Leaf Storm", "Leech Seed", "Memento", "Seed Bomb", "Sleep Powder", "Strength Sap", "Swords Dance", "Synthesis", "Tailwind", "Trailblaze", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "houndour": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Crunch", "Dark Pulse", "Destiny Bond", "Fire Blast", "Flame Charge", "Flare Blitz", "Foul Play", "Nasty Plot", "Psychic Fangs", "Sludge Bomb", "Sucker Punch", "Taunt", "Thunder Fang"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "igglybuff": {
+        "level": 10,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Body Slam", "Dazzling Gleam", "Disable", "Encore", "Fire Blast", "Flamethrower", "Hyper Voice", "Light Screen", "Protect", "Psychic", "Reflect", "Shadow Ball", "Thunder Wave", "Wish"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "impidimp": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Dark Pulse", "Dazzling Gleam", "Drain Punch", "Fake Out", "Foul Play", "Light Screen", "Nasty Plot", "Parting Shot", "Play Rough", "Reflect", "Substitute Taunt", "Sucker Punch", "Thunder Wave"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "kricketot": {
+        "level": 11,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Bug Bite", "Growl", "Struggle Bug", "Tackle", "Tera Blast"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "larvesta": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Bug Buzz", "Calm Mind", "Fire Blast", "Flame Charge", "Flare Blitz", "Giga Drain", "Leech Life", "Morning Sun", "U-turn", "Wild Charge", "Will-O-Wisp", "Zen Headbutt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "larvitar": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Crunch", "Dragon Dance", "Earthquake", "Facade", "Rock Slide", "Stealth Rock", "Stone Edge", "Taunt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "lechonk": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Body Slam", "Bulldoze", "Double-Edge", "Hyper Voice", "Iron Head", "Play Rough", "Seed Bomb", "Stuff Cheeks", "Trailblaze", "Yawn", "Zen Headbutt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "litleo": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Body Slam", "Crunch", "Fire Blast", "Flare Blitz", "Hyper Voice", "Overheat", "Psychic Fangs", "Taunt", "Wild Charge", "Will-O-Wisp", "Work Up", "Yawn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "magikarp": {
+        "level": 12,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Flail", "Splash", "Tackle"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "magnemite": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Flash Cannon", "Thunderbolt", "Thunder Wave", "Volt Switch"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "makuhita": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Bulk Up", "Bullet Punch", "Close Combat", "Drain Punch", "Earthquake", "Facade", "Fake Out", "Knock Off", "Stone Edge"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "mankey": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Acrobatics", "Bulk Up", "Close Combat", "Drain Punch", "Earthquake", "Encore", "Gunk Shot", "Stone Edge", "Taunt", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "mareanie": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Gunk Shot", "Hydro Pump", "Ice Beam", "Ice Spinner", "Liquidation", "Recover", "Sludge Bomb", "Surf", "Toxic", "Toxic Spikes"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "mareep": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Cotton Guard", "Dazzling Gleam", "Discharge", "Rest", "Sleep Talk", "Thunderbolt", "Thunder Wave", "Trailblaze", "Volt Switch"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "maschiff": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Crunch", "Fire Fang", "Hone Claws", "Ice Fang", "Play Rough", "Psychic Fangs", "Thunder Fang"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "meowth": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Aerial Ace", "Bite", "Body Slam", "Chilling Water", "Covet", "Fake Out", "Gunk Shot", "Hyper Voice", "Nasty Plot", "Play Rough", "Power Gem", "Seed Bomb", "Shadow Ball", "Taunt", "Thunderbolt", "Thunder Wave", "Trailblaze", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "meowthalola": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Bite", "Dark Pulse", "Fake Out", "Gunk Shot", "Hypnosis", "Icy Wind", "Nasty Plot", "Parting Shot", "Play Rough", "Power Gem", "Thief", "Thunderbolt", "Thunder Wave", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "meowthgalar": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Brick Break", "Crunch", "Fake Out", "Gunk Shot", "Iron Head", "Play Rough", "Shadow Claw", "Stealth Rock", "Trailblaze", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "mudbray": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Close Combat", "Earthquake", "Heavy Slam", "Stealth Rock", "Stone Edge"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "nacli": {
+        "level": 9,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Curse", "Earthquake", "Recover", "Stealth Rock", "Stone Edge"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "noibat": {
+        "level": 9,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Acrobatics", "Brick Break", "Dark Pulse", "Defog", "Draco Meteor", "Heat Wave", "Hurricane", "Roost", "Super Fang", "Tailwind", "Taunt", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "numel": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Body Press", "Curse", "Earth Power", "Earthquake", "Fire Blast", "Flamethrower", "Flare Blitz", "Growth", "Lava Plume", "Rest", "Sleep Talk", "Stealth Rock", "Stockpile", "Stone Edge", "Trailblaze", "Will-O-Wisp", "Yawn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "nymble": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["First Impression", "Leech Life", "Pounce", "Sucker Punch", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "pawmi": {
+        "level": 9,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Agility", "Baton Pass", "Crunch", "Discharge", "Encore", "Fake Out", "Mach Punch", "Nuzzle", "Play Rough", "Protect", "Thunderbolt", "Volt Switch", "Wish"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "pawniard": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Brick Break", "Iron Head", "Low Sweep", "Night Slash", "Stealth Rock", "Sucker Punch", "Swords Dance", "Taunt", "Thunder Wave"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "petilil": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Encore", "Energy Ball", "Giga Drain", "Growth", "Healing Wish", "Leaf Storm", "Leech Seed", "Pollen Puff", "Sleep Powder", "Solar Beam", "Stun Spore", "Sunny Day Synthesis", "Tera Blast", "Trailblaze"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "phanpy": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Earthquake", "Encore", "Gunk Shot", "Head Smash", "Ice Shard", "Play Rough", "Seed Bomb", "Stealth Rock", "Stone Edge"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "pichu": {
+        "level": 9,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Encore", "Fake Out", "Nasty Plot", "Nuzzle", "Play Rough", "Surf", "Thunderbolt", "Volt Switch", "Volt Tackle"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "pineco": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Bug Bite", "Bulldoze", "Bug Buzz", "Curse", "Drill Run", "Explosion", "Giga Drain", "Ice Spinner", "Pin Missile", "Poison Jab", "Pounce", "Rapid Spin", "Rock Slide", "Seed Bomb", "Spikes", "Stealth Rock", "Toxic Spikes"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "psyduck": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Aqua Tail", "Calm Mind", "Clear Smog", "Cross Chop", "Disable", "Encore", "Hydro Pump", "Hypnosis", "Ice Beam", "Liquidation", "Nasty Plot", "Psychic", "Psyshock", "Rain Dance", "Surf", "Taunt", "Trailblaze", "Yawn", "Zen Headbutt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "quaxly": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Acrobatics", "Aqua Cutter", "Aqua Jet", "Baton Pass", "Brave Bird", "Encore", "Liquidation", "Rapid Spin", "Roost", "Work Up"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "ralts": {
+        "level": 10,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Calm Mind", "Dazzling Gleam", "Destiny Bond", "Disable", "Draining Kiss", "Encore", "Fire Punch", "Ice Punch", "Knock Off", "Light Screen", "Memento", "Mystical Fire", "Psychic", "Psyshock", "Reflect", "Shadow Ball", "Shadow Sneak", "Taunt", "Teleport", "Thunderbolt", "Thunder Wave", "Will-O-Wisp"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "rellor": {
+        "level": 9,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Cosmic Power", "Gunk Shot", "Leech Life", "Lunge", "Memento", "Pounce", "Recover", "Sludge Bomb", "Thief"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "riolu": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Bulk Up", "Bullet Punch", "Close Combat", "Copycat", "Crunch", "Drain Punch", "Earthquake", "Poison Jab", "Shadow Claw", "Substitute", "Swords Dance", "Thunder Punch"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "rockruff": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Crunch", "Fire Fang", "Play Rough", "Psychic Fangs", "Rock Slide", "Stealth Rock", "Stomping Tantrum", "Stone Edge", "Substitute", "Swords Dance", "Taunt", "Trailblaze"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "rolycoly": {
+        "level": 9,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Explosion", "Power Gem", "Rapid Spin", "Spikes", "Stealth Rock", "Stone Edge", "Will-O-Wisp"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "rookiedee": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Brave Bird", "Defog", "Hone Claws", "Roost", "Tailwind", "Taunt", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "salandit": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Dragon Pulse", "Fake Out", "Fire Blast", "Nasty Plot", "Sludge Bomb", "Toxic", "Toxic Spikes", "Will-O-Wisp"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "sandile": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Aqua Tail", "Crunch", "Earthquake", "Fire Fang", "Hone Claws", "Sludge Bomb", "Stealth Rock", "Stone Edge", "Taunt", "Thunder Fang"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "sandygast": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Earth Power", "Energy Ball", "Flash Cannon", "Giga Drain", "Hypnosis", "Psychic", "Shadow Ball", "Shore Up", "Sludge Bomb", "Stealth Rock"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "scatterbug": {
+        "level": 12,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Bug Bite", "Pounce", "Stun Spore", "Struggle Bug", "Tackle"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "scorbunny": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Baton Pass", "Double-Edge", "Flame Charge", "Flare Blitz", "Gunk Shot", "High Jump Kick", "Sucker Punch", "Taunt", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "shellder": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Hydro Pump", "Ice Beam", "Ice Shard", "Ice Spinner", "Liquidation", "Rock Blast", "Shell Smash", "Spikes", "Toxic Spikes"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "shellos": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Clear Smog", "Curse", "Earth Power", "Hydro Pump", "Ice Beam", "Liquidation", "Memento", "Recover", "Rock Slide", "Stealth Rock", "Stone Edge", "Surf", "Yawn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "shinx": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Crunch", "Facade", "Fire Fang", "Ice Fang", "Play Rough", "Psychic Fangs", "Quick Attack", "Thunderbolt", "Trailblaze", "Volt Switch", "Wild Charge"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "shroodle": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Baton Pass", "Encore", "Foul Play", "Gunk Shot", "Knock Off", "Parting Shot", "Protect", "Substitute", "Swords Dance", "Taunt", "Toxic", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "shroomish": {
+        "level": 9,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Drain Punch", "Energy Ball", "Giga Drain", "Gunk Shot", "Leech Seed", "Protect", "Seed Bomb", "Sludge Bomb", "Spore", "Substitute", "Toxic", "Zen Headbutt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "shuppet": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Calm Mind", "Dark Pulse", "Dazzling Gleam", "Disable", "Encore", "Foul Play", "Gunk Shot", "Hex", "Nasty Plot", "Phantom Force", "Shadow Ball", "Shadow Sneak", "Sucker Punch", "Taunt", "Thunderbolt", "Thunder Wave", "Will-O-Wisp"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "silicobra": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Coil", "Earthquake", "Glare", "Rest", "Stealth Rock", "Stone Edge"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "sinistea": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Baton Pass", "Giga Drain", "Shadow Ball", "Shell Smash", "Stored Power"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "skiddo": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Bulk Up", "Horn Leech", "Milk Drink", "Stomping Tantrum", "Trailblaze"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "skrelp": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Gunk Shot", "Haze", "Hydro Pump", "Liquidation", "Sludge Bomb", "Thunderbolt", "Toxic", "Toxic Spikes"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "skwovet": {
+        "level": 9,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Body Slam", "Crunch", "Last Resort", "Seed Bomb", "Trailblaze", "Belly Drum"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "slakoth": {
+        "level": 9,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Body Slam", "Fire Blast", "Gunk Shot", "Hammer Arm", "Ice Beam", "Play Rough", "Seed Bomb", "Throat Chop"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "slowpoke": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Calm Mind", "Curse", "Earthquake", "Fire Blast", "Hydro Pump", "Ice Beam", "Liquidation", "Psychic", "Psyshock", "Slack Off", "Surf", "Thunder Wave", "Yawn", "Zen Headbutt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "smoliv": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Earth Power", "Energy Ball", "Giga Drain", "Leaf Storm", "Leech Seed", "Memento", "Protect", "Strength Sap", "Synthesis"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "snom": {
+        "level": 9,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Bug Buzz", "Icy Wind", "Mirror Coat", "Pounce", "Rest", "Sleep Talk", "Struggle Bug"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "snorunt": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Crunch", "Disable", "Ice Beam", "Ice Shard", "Ice Spinner", "Icicle Crash", "Protect", "Shadow Ball", "Spikes", "Substitute "],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "snover": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Blizzard", "Giga Drain", "Ice Shard", "Ice Spinner", "Leaf Storm", "Swords Dance", "Wood Hammer"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "spoink": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Calm Mind", "Dazzling Gleam", "Encore", "Flash Cannon", "Future Sight", "Light Screen", "Psychic", "Psyshock", "Reflect", "Shadow Ball", "Taunt", "Thunder Wave"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "sprigatito": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Acrobatics", "Energy Ball", "Giga Drain", "Leaf Storm", "Nasty Plot", "Petal Blizzard", "Play Rough", "Shadow Claw", "Sucker Punch", "Taunt", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "starly": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Brave BIrd", "Double-Edge", "Heat Wave", "Quick Attack", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "stunky": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Crunch", "Dark Pulse", "Explosion", "Fire Blast", "Flamethrower", "Gunk Shot", "Memento", "Nasty Plot", "Play Rough", "Sludge Bomb", "Sucker Punch", "Taunt", "Toxic", "Toxic Spikes", "Trailblaze"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "sunkern": {
+        "level": 10,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Double-Edge", "Earth Power", "Encore", "Energy Ball", "Growth", "Leaf Storm", "Synthesis"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "surskit": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Aqua Jet", "Baton Pass", "Bug Buzz", "Giga Drain", "Hydro Pump", "Ice Beam", "Sticky Web"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "swablu": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Brave Bird", "Cotton Guard", "Defog", "Feather Dance", "Haze", "Heat Wave", "Hyper Voice", "Ice Beam", "Moonblast", "Roost", "Tailwind"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "tadbulb": {
+        "level": 9,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Discharge", "Light Screen", "Mud Shot", "Parabolic Charge", "Reflect", "Sucker Punch", "Thunderbolt", "Volt Switch"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "tandemaus": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Baton Pass", "Crunch", "Encore", "Play Rough", "Population Bomb", "Taunt", "Seed Bomb", "Switcheroo", "Thunder Wave", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "tarountula": {
+        "level": 9,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Circle Throw", "First Impression", "Leech Life", "Lunge", "Memento", "Poison Jab", "Spikes", "Sticky Web", "Sucker Punch", "Throat Chop", "Toxic Spikes"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "teddiursa": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Close Combat", "Crunch", "Earthquake", "Facade", "Protect", "Swords Dance"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "tinkatink": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Encore", "Fake Out", "Foul Play", "Ice Hammer", "Knock Off", "Play Rough", "Stealth Rock", "Stone Edge", "Swords Dance", "Thunder Wave"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "toedscool": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Dazzling Gleam", "Earth Power", "Energy Ball", "Giga Drain", "Knock Off", "Leaf Storm", "Power Whip", "Rapid Spin", "Sludge Bomb", "Spikes", "Spore", "Toxic", "Toxic Spikes", "Trailblaze"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "toxel": {
+        "level": 10,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Charm", "Encore", "Facade", "Metal Sound", "Nuzzle", "Tearful Look", "Tera Blast"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "tynamo": {
+        "level": 10,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Charge Beam", "Spark", "Tackle", "Tera Blast", "Thunder Wave"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "varoom": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Bulldoze", "Gunk Shot", "Haze", "Iron Head", "Parting Shot", "Spin Out", "Taunt", "Toxic", "Toxic Spikes", "Zen Headbutt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "venonat": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Baton Pass", "Bug Buzz", "Disable", "Energy Ball", "Giga Drain", "Leech Life", "Morning Sun", "Psychic", "Sleep Powder", "Sludge Bomb", "Substitute", "Toxic Spikes", "Zen Headbutt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "voltorb": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Explosion", "Foul Play", "Taunt", "Thunderbolt", "Thunder Wave", "Volt Switch"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "wattrel": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Brave Bird", "Feather Dance", "Hurricane", "Roost", "Tailwind", "Thunderbolt", "Thunder Wave", "U-turn", "Volt Switch"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "wiglett": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Aqua Jet", "Earth Power", "Hydro Pump", "Ice Beam", "Liquidation", "Memento", "Stomping Tantrum", "Sucker Punch", "Throat Chop"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "wingull": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Brave Bird", "Hurricane", "Hydro Pump", "Ice Beam", "Knock Off", "Rain Dance", "Surf", "Tailwind", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "wooper": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Curse", "Earthquake", "Encore", "Ice Beam", "Liquidation", "Recover", "Sludge Bomb", "Spikes", "Stealth Rock", "Toxic", "Yawn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "wooperpaldea": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Curse", "Earthquake", "Encore", "Gunk Shot", "Recover", "Sludge Bomb", "Spikes", "Stealth Rock", "Toxic", "Toxic Spikes", "Yawn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "yungoos": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Crunch", "Facade", "Fire Fang", "Ice Fang", "Last Resort", "Psychic Fangs", "Seed Bomb", "Stomping Tantrum", "Taunt", "Trailblaze", "U-turn", "Wild Charge", "Work Up"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "zorua": {
+        "level": 1,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Counter", "Dark Pulse", "Encore", "Extrasensory", "Knock Off", "Memento", "Nasty Plot", "Sludge Bomb", "Sucker Punch", "Swords Dance", "Taunt", "Trick", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "basculinwhitestriped": {
+        "level": 5,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Aqua Jet", "Crunch", "Head Smash", "Hydro Pump", "Ice Beam", "Last Respects", "Wave Crash"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "chespin": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Belly Drum", "Curse", "Drain Punch", "Energy Ball", "Giga Drain", "Leaf Storm", "Leech Seed", "Poison Jab", "Rock Slide", "Seed Bomb", "Spikes", "Stomping Tantrum", "Synthesis", "Thunder Punch", "Trailblaze", "Wood Hammer"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "cyndaquil": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Eruption", "Extrasensory", "Fire Blast", "Flamethrower", "Wild Charge", "Will-O-Wisp"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "diglettalola": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Earthquake", "Iron Head", "Memento", "Stealth Rock", "Stone Edge", "Sucker Punch", "Swords Dance"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "fennekin": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Calm Mind", "Encore", "Fire Blast", "Flamethrower", "Protect", "Psychic", "Will-O-Wisp", "Wish"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "grimeralola": {
+        "level": 5,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Disable", "Drain Punch", "Fire Blast", "Gunk Shot", "Ice Punch", "Knock Off", "Memento", "Toxic"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "grookey": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Acrobatics", "Drain Punch", "Fake Out", "Hammer Arm", "Knock Off", "Swords Dance", "U-turn", "Wood Hammer"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "kubfu": {
+        "level": 6,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Bulk Up", "Close Combat", "Dynamic Punch", "Ice Punch", "Iron Head", "Swords Dance", "Thunder Punch", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "oshawott": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Aqua Jet", "Encore", "Hydro Pump", "Ice Beam", "Knock Off", "Liquidation", "Sacred Sword", "Surf", "Swords Dance"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "qwilfishhisui": {
+        "level": 5,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Crunch", "Gunk Shot", "Spikes", "Swords Dance", "Taunt", "Toxic Spikes"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "rowlet": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Brave Bird", "Defog", "Energy Ball", "Giga Drain", "Knock Off", "Leaf Blade", "Leaf Storm", "Nasty Plot", "Shadow Sneak", "Sucker Punch", "Swords Dance", "Synthesis", "Air Slash"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "slowpokegalar": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Calm Mind", "Curse", "Earthquake", "Fire Blast", "Hydro Pump", "Ice Beam", "Liquidation", "Psychic", "Psyshock", "Slack Off", "Surf", "Thunder Wave", "Yawn", "Zen Headbutt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "sobble": {
+        "level": 8,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Aqua Jet", "Hydro Pump", "Ice Shard", "Mud Shot", "Sucker Punch", "Surf", "Tearful Look", "U-turn", "Reflect", "Light Screen"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "voltorbhisui": {
+        "level": 7,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Discharge", "Energy Ball", "Explosion", "Foul Play", "Giga Drain", "Leaf Storm", "Leech Seed", "Protect", "Thunderbolt", "Thunder Wave", "Volt Switch"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "zoruahisui": {
+        "level": 1,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Bitter Malice", "Extrasensory", "Hyper Beam", "Knock Off", "Nasty Plot", "Shadow Ball", "Shadow Sneak", "Sludge Bomb", "Taunt", "U-turn", "Will-O-Wisp"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "dunsparce": {
+        "level": 5,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Body Slam", "Coil", "Earthquake", "Roost"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "flittle": {
+        "level": 5,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Baton Pass", "Calm Mind", "Protect", "Psychic", "Psyshock", "Roost", "Stored Power", "Substitute", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "girafarig": {
+        "level": 5,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Baton Pass", "Calm Mind", "Crunch", "Dazzling Gleam", "Earthquake", "Energy Ball", "Hyper Voice", "Nasty Plot", "Psychic", "Psychic Fangs", "Psyshock", "Thunderbolt", "Thunder Wave", "Wish"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "meditite": {
+        "level": 5,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Baton Pass", "Bulk Up", "Bullet Punch", "Close Combat", "Drain Punch", "Fake Out", "Fire Punch", "High Jump Kick", "Ice Punch", "Poison Jab", "Recover", "Rock Slide", "Substitute", "Taunt", "Thunder Punch", "Trailblaze", "Zen Headbutt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "misdreavus": {
+        "level": 5,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Calm Mind", "Dazzling Gleam", "Destiny Bond", "Draining Kiss", "Energy Ball", "Hex", "Memento", "Nasty Plot", "Pain Split", "Psychic", "Psyshock", "Shadow Ball", "Shadow Sneak", "Stored Power", "Substitute", "Sucker Punch", "Taunt", "Thunderbolt", "Thunder Wave", "Will-O-Wisp "],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "murkrow": {
+        "level": 5,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Acrobatics", "Brave Bird", "Calm Mind", "Dark Pulse", "Feather Dance", "Haze", "Heat Wave", "Hurricane", "Nasty Plot", "Sucker Punch", "Tailwind", "Taunt", "Thunder Wave", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "rufflet": {
+        "level": 5,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Acrobatics", "Agility", "Body Slam", "Brave Bird", "Bulk Up", "Close Combat", "Defog", "Heat Wave", "Hone Claws", "Rock Slide", "Shadow Claw", "Substitute", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "scyther": {
+        "level": 5,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Acrobatics", "Aerial Ace", "Close Combat", "Defog", "Pounce", "Quick Attack", "Swords Dance", "U-turn"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "sneasel": {
+        "level": 5,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Bite", "Brick Break", "Fake Out", "Foul Play", "Ice Shard", "Icicle Crash", "Poison Jab", "Swords Dance", "Taunt", "Thief"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "sneaselhisui": {
+        "level": 5,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Bulk Up", "Close Combat", "Fake Out", "Gunk Shot", "Hone Claws", "Night Slash", "Swords Dance", "Taunt", "Toxic Spikes", "Trailblaze"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    },
+    "stantler": {
+        "level": 5,
+        "sets": [
+            {
+                "role": "LC Mon",
+                "movepool": ["Body Slam", "Calm Mind", "Disable", "Double-Edge", "Earth Power", "Earthquake", "Energy Ball", "Extrasensory", "Giga Impact", "Hypnosis", "Light Screen", "Megahorn", "Psychic", "Reflect", "Shadow Ball", "Substitute", "Thunderbolt", "Thunder Wave", "Trailblaze", "Wild Charge", "Zen Headbutt"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    }
+}

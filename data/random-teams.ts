@@ -1230,10 +1230,12 @@ export class RandomTeams {
 	getLevel(
 		species: Species,
 		isDoubles: boolean,
+		isLC: boolean = false,
 	): number {
 		if (this.adjustLevel) return this.adjustLevel;
 		// doubles levelling
 		if (isDoubles && this.randomDoublesSets[species.id]["level"]) return this.randomDoublesSets[species.id]["level"];
+		if (isLC && this.randomLCSets[species.id]["level"]) return this.randomLCSets[species.id]["level"];
 		if (!isDoubles && this.randomSets[species.id]["level"]) return this.randomSets[species.id]["level"];
 		// Default to tier-based levelling
 		const tier = species.tier;
@@ -1256,7 +1258,8 @@ export class RandomTeams {
 		species: string | Species,
 		teamDetails: RandomTeamsTypes.TeamDetails = {},
 		isLead = false,
-		isDoubles = false
+		isDoubles = false,
+		isLC = false,
 	): RandomTeamsTypes.RandomSet {
 		species = this.dex.species.get(species);
 		let forme = species.name;
@@ -1268,7 +1271,7 @@ export class RandomTeams {
 		if (species.cosmeticFormes) {
 			forme = this.sample([species.name].concat(species.cosmeticFormes));
 		}
-		const sets = (this as any)[`random${isDoubles ? 'Doubles' : ''}Sets`][species.id]["sets"];
+		const sets = (this as any)[`random${isDoubles ? 'Doubles' : ''}${isLC ? 'LC' : ''}Sets`][species.id]["sets"];
 		const possibleSets = [];
 		for (const set of sets) {
 			if (teamDetails.teraBlast && set.role === "Tera Blast user") {
@@ -1333,7 +1336,7 @@ export class RandomTeams {
 		}
 
 		// Get level
-		const level = this.getLevel(species, isDoubles);
+		const level = this.getLevel(species, isDoubles, isLC);
 
 		// Prepare optimal HP
 		const srImmunity = ability === 'Magic Guard' || item === 'Heavy-Duty Boots';
@@ -1396,12 +1399,27 @@ export class RandomTeams {
 		pokemonToExclude: RandomTeamsTypes.RandomSet[] = [],
 		isMonotype = false,
 		isDoubles = false,
+		isLC = false,
 	) {
 		const exclude = pokemonToExclude.map(p => toID(p.species));
 		const pokemonPool = [];
 		const baseSpeciesPool: string[] = [];
 		if (isDoubles) {
 			for (const pokemon of Object.keys(this.randomDoublesSets)) {
+				let species = this.dex.species.get(pokemon);
+				if (species.gen > this.gen || exclude.includes(species.id)) continue;
+				if (isMonotype) {
+					if (!species.types.includes(type)) continue;
+					if (typeof species.battleOnly === 'string') {
+						species = this.dex.species.get(species.battleOnly);
+						if (!species.types.includes(type)) continue;
+					}
+				}
+				pokemonPool.push(pokemon);
+				if (!baseSpeciesPool.includes(species.baseSpecies)) baseSpeciesPool.push(species.baseSpecies);
+			}
+		} else if (isLC) {
+			for (const pokemon of Object.keys(this.randomLCSets)) {
 				let species = this.dex.species.get(pokemon);
 				if (species.gen > this.gen || exclude.includes(species.id)) continue;
 				if (isMonotype) {
@@ -1435,6 +1453,7 @@ export class RandomTeams {
 	// TODO: Make types for this
 	randomSets: AnyObject = require('./random-sets.json');
 	randomDoublesSets: AnyObject = require('./random-sets.json'); // Doubles sets are the same as singles for now
+	randomLCSets: AnyObject = require('./random-LC-sets.json');
 
 	randomTeam() {
 		this.enforceNoDirectCustomBanlistChanges();
@@ -1556,6 +1575,143 @@ export class RandomTeams {
 			} else {
 				tierCount[tier] = 1;
 			}
+
+			// Increment type counters
+			for (const typeName of types) {
+				if (typeName in typeCount) {
+					typeCount[typeName]++;
+				} else {
+					typeCount[typeName] = 1;
+				}
+			}
+			if (typeCombo in typeComboCount) {
+				typeComboCount[typeCombo]++;
+			} else {
+				typeComboCount[typeCombo] = 1;
+			}
+
+			// Increment weakness counter
+			for (const typeName of this.dex.types.names()) {
+				// it's weak to the type
+				if (this.dex.getEffectiveness(typeName, species) > 0) {
+					typeWeaknesses[typeName]++;
+				}
+			}
+
+			// Track what the team has
+			if (set.ability === 'Drizzle' || set.moves.includes('raindance')) teamDetails.rain = 1;
+			if (set.ability === 'Drought' || set.ability === 'Orichalcum Pulse' || set.moves.includes('sunnyday')) {
+				teamDetails.sun = 1;
+			}
+			if (set.ability === 'Sand Stream') teamDetails.sand = 1;
+			if (set.ability === 'Snow Warning' || set.moves.includes('snowscape') || set.moves.includes('chillyreception')) {
+				teamDetails.snow = 1;
+			}
+			if (set.moves.includes('spikes')) teamDetails.spikes = (teamDetails.spikes || 0) + 1;
+			if (set.moves.includes('stealthrock')) teamDetails.stealthRock = 1;
+			if (set.moves.includes('stickyweb')) teamDetails.stickyWeb = 1;
+			if (set.moves.includes('stoneaxe')) teamDetails.stealthRock = 1;
+			if (set.moves.includes('toxicspikes')) teamDetails.toxicSpikes = 1;
+			if (set.moves.includes('defog')) teamDetails.defog = 1;
+			if (set.moves.includes('rapidspin')) teamDetails.rapidSpin = 1;
+			if (set.moves.includes('mortalspin')) teamDetails.rapidSpin = 1;
+			if (set.moves.includes('tidyup')) teamDetails.rapidSpin = 1;
+			if (set.moves.includes('auroraveil') || (set.moves.includes('reflect') && set.moves.includes('lightscreen'))) {
+				teamDetails.screens = 1;
+			}
+			if (set.role === 'Tera Blast user') teamDetails.teraBlast = 1;
+
+			// For setting Zoroark's level
+			if (set.ability === 'Illusion') teamDetails.illusion = pokemon.length;
+		}
+		if (pokemon.length < this.maxTeamSize && pokemon.length < 12) { // large teams sometimes cannot be built
+			throw new Error(`Could not build a random team for ${this.format} (seed=${seed})`);
+		}
+
+		return pokemon;
+	}
+
+	randomLCTeam() {
+		this.enforceNoDirectCustomBanlistChanges();
+
+		const seed = this.prng.seed;
+		const ruleTable = this.dex.formats.getRuleTable(this.format);
+		const pokemon: RandomTeamsTypes.RandomSet[] = [];
+
+		// For Monotype
+		const isMonotype = !!this.forceMonotype || ruleTable.has('sametypeclause');
+		const isDoubles = this.format.gameType !== 'singles';
+		const typePool = this.dex.types.names();
+		const type = this.forceMonotype || this.sample(typePool);
+
+		const baseFormes: {[k: string]: number} = {};
+
+		const typeCount: {[k: string]: number} = {};
+		const typeComboCount: {[k: string]: number} = {};
+		const typeWeaknesses: {[k: string]: number} = {};
+		const teamDetails: RandomTeamsTypes.TeamDetails = {};
+		const [pokemonPool, baseSpeciesPool] = this.getPokemonPool(type, pokemon, isMonotype, isDoubles, true);
+		while (baseSpeciesPool.length && pokemon.length < this.maxTeamSize) {
+			const baseSpecies = this.sampleNoReplace(baseSpeciesPool);
+			const currentSpeciesPool: Species[] = [];
+			for (const poke of pokemonPool) {
+				const species = this.dex.species.get(poke);
+				if (species.baseSpecies === baseSpecies) currentSpeciesPool.push(species);
+			}
+			let species = this.sample(currentSpeciesPool);
+			if (!species.exists) continue;
+			// Illusion shouldn't be on the last slot
+			if (species.baseSpecies === 'Zorua' && pokemon.length >= (this.maxTeamSize - 1)) continue;
+			const tier = species.tier;
+			const types = species.types;
+			const typeCombo = types.slice().sort().join();
+			// Dynamically scale limits for different team sizes. The default and minimum value is 1.
+			const limitFactor = Math.round(this.maxTeamSize / 6) || 1;
+
+			if (!isMonotype && !this.forceMonotype) {
+				let skip = false;
+
+				// Limit two of any type
+				for (const typeName of types) {
+					if (typeCount[typeName] >= 2 * limitFactor) {
+						skip = true;
+						break;
+					}
+				}
+				if (skip) continue;
+
+				// Limit three weak to any type
+				for (const typeName of this.dex.types.names()) {
+					// it's weak to the type
+					if (this.dex.getEffectiveness(typeName, species) > 0) {
+						if (!typeWeaknesses[typeName]) typeWeaknesses[typeName] = 0;
+						if (typeWeaknesses[typeName] >= 3 * limitFactor) {
+							skip = true;
+							break;
+						}
+					}
+				}
+				if (skip) continue;
+			}
+
+			// Limit one of any type combination, two in Monotype
+			if (!this.forceMonotype && typeComboCount[typeCombo] >= (isMonotype ? 2 : 1) * limitFactor) continue;
+
+			const set = this.randomSet(species, teamDetails, pokemon.length === 0, isDoubles, true);
+
+			// Okay, the set passes, add it to our team
+			pokemon.push(set);
+			if (pokemon.length === this.maxTeamSize) {
+				// Set Zorua's level to be the same as the last Pokemon
+				const illusion = teamDetails.illusion;
+				if (illusion) pokemon[illusion - 1].level = pokemon[this.maxTeamSize - 1].level;
+
+				// Don't bother tracking details for the last Pokemon
+				break;
+			}
+
+			// Now that our Pokemon has passed all checks, we can increment our counters
+			baseFormes[species.baseSpecies] = 1;
 
 			// Increment type counters
 			for (const typeName of types) {
