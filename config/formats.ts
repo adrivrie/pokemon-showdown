@@ -1876,6 +1876,14 @@ export const Formats: FormatList = [
 		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
 	},
 	{
+		name: "[Gen 9] Little Cup Random Battle",
+		desc: `Randomized teams of Little Cup Pok&eacute;mon with sets that are generated to be competitively viable.`,
+
+		mod: 'gen9',
+		team: 'randomLC',
+		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Terastal Clause', 'Cancel Mod', 'Sleep Clause Mod'],
+	},
+	{
 		name: "[Gen 9] Hackmons Cup",
 		desc: `Randomized teams of level-balanced Pok&eacute;mon with absolutely any ability, moves, and item.`,
 
