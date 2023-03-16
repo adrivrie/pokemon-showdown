@@ -632,12 +632,12 @@ export const Teams = new class Teams {
 	generateMultiple(format: Format | string, n: number | null = null) {
 		n = n || 10;
 		const generator = this.getGenerator(format);
-		console.log("Team id;Species;Role;Move1;Move2;Move3;Move4;Ability;Item;Tera type");
+		console.log("Team id;Species;Role;Level;Move1;Move2;Move3;Move4;Ability;Item;Tera type");
 		for (let i = 0; i < n; i++) {
 			const team = generator.getTeam();
 			for (const mon of team) {
 				const moves = mon.moves.sort();
-				console.log(`${i};${mon.species};${mon.role || ''};${moves[0] || ''};${moves[1] || ''};${moves[2] || ''};${moves[3] || ''};${mon.ability || ''};${mon.item || ''};${mon.teraType || ''}`);
+				console.log(`${i};${mon.species};${mon.role || ''};${mon.level || ''};${moves[0] || ''};${moves[1] || ''};${moves[2] || ''};${moves[3] || ''};${mon.ability || ''};${mon.item || ''};${mon.teraType || ''}`);
 			}
 			if (!(i % 100)) console.error(i);
 		}
