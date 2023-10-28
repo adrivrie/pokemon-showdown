@@ -362,6 +362,9 @@ export class Format extends BasicEffect implements Readonly<BasicEffect> {
 	readonly onBegin?: (this: Battle) => void;
 	readonly noLog: boolean;
 
+	/** A table of stat boosts given to certain species by the Zarel's Blessing rule */
+	readonly zarelsBlessing?: {[species: string]: SparseBoostsTable};
+
 	/**
 	 * Only applies to rules, not formats
 	 */
@@ -430,6 +433,7 @@ export class Format extends BasicEffect implements Readonly<BasicEffect> {
 		this.ruleTable = null;
 		this.onBegin = data.onBegin || undefined;
 		this.noLog = !!data.noLog;
+		this.zarelsBlessing = data.zarelsBlessing || undefined;
 	}
 }
 

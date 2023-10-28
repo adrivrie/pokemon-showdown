@@ -2667,4 +2667,37 @@ export const Rulesets: {[k: string]: FormatData} = {
 			return value;
 		},
 	},
+	illusionlevelmod: {
+		effectType: 'Rule',
+		name: "Illusion Level Mod",
+		desc: `Changes the Illusion ability to disguise the Pok&eacute;mon's level instead of leaking it.`,
+		onBegin() {
+			this.add('rule', "Illusion Level Mod: Illusion disguises the Pok\u00e9mon's true level");
+		},
+		// Implemented in Pokemon#getDetails
+	},
+	zarelsblessing: {
+		effectType: 'Rule',
+		name: "Zarel's Blessing",
+		desc: "Gives a stat boost to certain weak Pok&eacute;mon on switch-in depending on the format.",
+		onValidateRule() {
+			if (!this.format.zarelsBlessing) {
+				return `${this.format.name} does not support Zarel's Blessing.`;
+			}
+		},
+		onBegin() {
+			if (!this.format.zarelsBlessing) return; // should not happen normally
+			const blessingPokemon = Object.keys(this.format.zarelsBlessing);
+			this.add('rule',
+				`Zarel's Blessing: The following Pok\u00e9mon will receive a stat boost on switch-in: ${blessingPokemon.join(', ')}`);
+		},
+		onSwitchIn(pokemon) {
+			if (!this.format.zarelsBlessing) return; // should not happen normally
+			const boost = this.format.zarelsBlessing[pokemon.species.name];
+			if (!boost) return;
+			this.add('-message', `Zarel noticed that ${pokemon.name} was having a tough time! ${pokemon.name} received Zarel's Blessing!`);
+			this.boost(boost, pokemon, pokemon);
+			this.hint("Zarel's Blessing is a deliberate boost given to the rare few Pokemon that otherwise cannot be balanced in Random Battles.", true);
+		},
+	},
 };
