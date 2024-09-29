@@ -480,6 +480,21 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Standard Draft', 'Moody Clause', 'Swagger Clause'],
 		banlist: ['Soul Dew'],
 	},
+	{
+		name: "[Gen 9] Draft Factory",
+		desc: `Random matchup from a real high level Draft tournament.`,
+		mod: 'gen9',
+		team: 'randomDraftFactory',
+		ruleset: ['Standard'],
+		onBegin() {
+			// natdex tera rules plus manual support for non-tera-captains
+			for (const pokemon of this.getAllPokemon()) {
+				if (pokemon.teraType === "NoTera" || pokemon.species.isMega || pokemon.species.isPrimal || pokemon.species.forme === "Ultra") {
+					pokemon.canTerastallize = null;
+				}
+			}
+		},
+	},
 
 	// OM of the Month
 	///////////////////////////////////////////////////////////////////

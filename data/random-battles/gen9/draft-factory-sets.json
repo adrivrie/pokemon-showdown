@@ -1,0 +1,139 @@
+{
+	"Matchup 1": [
+		[
+			{
+				"species": "Dragonite",
+				"moves": ["Air Slash", "Encore", "Substitute", "Thunder Wave"],
+				"item": "Rocky Helmet",
+				"nature": "Bold",
+				"evs": {"hp": 244, "def": 148, "spe": 116},
+				"ivs": {"atk": 0},
+				"ability": "Multiscale"
+			},
+			{
+				"species": "Dragonite",
+				"moves": ["Air Slash", "Encore", "Substitute", "Thunder Wave"],
+				"item": "Rocky Helmet",
+				"nature": "Bold",
+				"evs": {"hp": 244, "def": 148, "spe": 116},
+				"ability": "Multiscale"
+			},
+			{
+				"species": "Dragonite",
+				"moves": ["Air Slash", "Encore", "Substitute", "Thunder Wave"],
+				"item": "Rocky Helmet",
+				"nature": "Bold",
+				"evs": {"hp": 244, "def": 148, "spe": 116},
+				"ivs": {"atk": 0},
+				"ability": "Multiscale"
+			},
+			{
+				"species": "Dragonite",
+				"moves": ["Air Slash", "Encore", "Substitute", "Thunder Wave"],
+				"item": "Rocky Helmet",
+				"nature": "Bold",
+				"evs": {"hp": 244, "def": 148, "spe": 116},
+				"ivs": {"atk": 0},
+				"teraType": "Fairy",
+				"ability": "Multiscale"
+			}
+		],
+		[
+			{
+				"species": "Dragonair",
+				"moves": ["Air Slash", "Encore", "Substitute", "Thunder Wave"],
+				"item": "Rocky Helmet",
+				"nature": "Bold",
+				"evs": {"hp": 244, "def": 148, "spe": 116},
+				"ivs": {"atk": 0},
+				"ability": "Multiscale"
+			},
+			{
+				"species": "Dragonair",
+				"moves": ["Air Slash", "Encore", "Substitute", "Thunder Wave"],
+				"item": "Rocky Helmet",
+				"nature": "Bold",
+				"evs": {"hp": 244, "def": 148, "spe": 116},
+				"ability": "Multiscale"
+			},
+			{
+				"species": "Dragonair",
+				"moves": ["Air Slash", "Encore", "Substitute", "Thunder Wave"],
+				"item": "Rocky Helmet",
+				"nature": "Bold",
+				"evs": {"hp": 244, "def": 148, "spe": 116},
+				"ivs": {"atk": 0},
+				"ability": "Multiscale"
+			},
+			{
+				"species": "Dragonair",
+				"moves": ["Air Slash", "Encore", "Substitute", "Thunder Wave"],
+				"item": "Rocky Helmet",
+				"nature": "Bold",
+				"evs": {"hp": 244, "def": 148, "spe": 116},
+				"ivs": {"atk": 0},
+				"teraType": "Fairy",
+				"ability": "Multiscale"
+			}
+		]
+	],
+	"Matchup 2": [
+		[
+			{
+				"species": "Dragonite",
+				"moves": ["Air Slash", "Encore", "Substitute", "Thunder Wave"],
+				"item": "Rocky Helmet",
+				"nature": "Bold",
+				"evs": {"hp": 244, "def": 148, "spe": 116},
+				"ivs": {"atk": 0},
+				"ability": "Multiscale"
+			},
+			{
+				"species": "Dragonite",
+				"moves": ["Air Slash", "Encore", "Substitute", "Thunder Wave"],
+				"item": "Rocky Helmet",
+				"nature": "Bold",
+				"evs": {"hp": 244, "def": 148, "spe": 116},
+				"ability": "Multiscale"
+			}
+		],
+		[
+			{
+				"species": "Dragonair",
+				"moves": ["Air Slash", "Encore", "Substitute", "Thunder Wave"],
+				"item": "Rocky Helmet",
+				"nature": "Bold",
+				"evs": {"hp": 244, "def": 148, "spe": 116},
+				"ivs": {"atk": 0},
+				"ability": "Multiscale"
+			},
+			{
+				"species": "Dragonair",
+				"moves": ["Air Slash", "Encore", "Substitute", "Thunder Wave"],
+				"item": "Rocky Helmet",
+				"nature": "Bold",
+				"evs": {"hp": 244, "def": 148, "spe": 116},
+				"ability": "Multiscale"
+			},
+			{
+				"species": "Dragonair",
+				"moves": ["Air Slash", "Encore", "Substitute", "Thunder Wave"],
+				"item": "Rocky Helmet",
+				"nature": "Bold",
+				"evs": {"hp": 244, "def": 148, "spe": 116},
+				"ivs": {"atk": 0},
+				"ability": "Multiscale"
+			},
+			{
+				"species": "Dragonair",
+				"moves": ["Air Slash", "Encore", "Substitute", "Thunder Wave"],
+				"item": "Rocky Helmet",
+				"nature": "Bold",
+				"evs": {"hp": 244, "def": 148, "spe": 116},
+				"ivs": {"atk": 0},
+				"teraType": "Fairy",
+				"ability": "Multiscale"
+			}
+		]
+	]
+}

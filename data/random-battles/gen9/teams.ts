@@ -2607,6 +2607,41 @@ export class RandomTeams {
 
 		return pokemon;
 	}
+
+	randomDraftFactorySets: AnyObject = require("./draft-factory-sets.json");
+
+	randomDraftFactoryTeam(): RandomTeamsTypes.RandomFactorySet[] {
+		this.enforceNoDirectCustomBanlistChanges();
+
+		let player = 1
+		// It's not really a tier, but factoryTier is already supported so let's (ab)use it
+		if (!this.factoryTier) {
+			this.factoryTier = this.sample(Object.keys(this.randomDraftFactorySets));
+			player = 0;
+		}
+		const teamJSON = this.randomDraftFactorySets[this.factoryTier][player];
+
+		const pokemon = [];
+		for(const monData of teamJSON){
+			const species = this.dex.species.get(monData.species);
+			pokemon.push({
+				name: monData.species,
+				species: monData.species,
+				teraType: monData.teraType || "NoTera",
+				gender:	monData.gender || species.gender || (this.randomChance(1, 2) ? "M" : "F"),
+				item: monData.item || "",
+				ability: monData.ability,
+				shiny: monData.shiny || false,
+				level: monData.level || 100,
+				happiness: monData.happiness || 255,
+				evs: {hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0, ...monData.evs},
+				ivs: {hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 31, ...monData.ivs},
+				nature: monData.nature || "Serious",
+				moves: monData.moves,
+			});
+		}
+		return pokemon;
+	}
 }
 
 export default RandomTeams;
