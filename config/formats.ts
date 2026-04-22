@@ -564,7 +564,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		team: 'randomCC',
 		gameType: 'doubles',
 		bestOfDefault: true,
-		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod', 'Team Preview', 'Picked Team Size = 4'],
+		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod', 'Team Preview', 'Picked Team Size = 4', 'Adjust Level = 50'],
 	},
 	{
 		name: "[Gen 9] Alphabet Cup",
