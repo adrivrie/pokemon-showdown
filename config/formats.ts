@@ -558,8 +558,8 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		column: 2,
 	},
 	{
-		name: "[Gen 9] Champions Challenge Cup",
-		desc: `Get a randomized team of level-balanced Pok&eacute;mon with absolutely any legal ability, moves, and item, and choose two to battle in a doubles format.`,
+		name: "[Gen 9 Champions] VGC Challenge Cup",
+		desc: `Get a randomized team of Champions Pok&eacute;mon with absolutely any legal ability, moves, and item, and choose four to battle in a doubles format.`,
 		mod: 'champions',
 		team: 'randomCC',
 		gameType: 'doubles',
