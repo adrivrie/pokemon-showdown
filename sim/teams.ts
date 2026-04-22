@@ -641,6 +641,8 @@ export const Teams = new class Teams {
 			TeamGenerator = require(`../data/random-battles/gen9cap/teams`).default;
 		} else if (formatID.includes('gen9freeforallrandombattle')) {
 			TeamGenerator = require(`../data/random-battles/gen9ffa/teams`).default;
+		} else if (formatID.includes('gen9championschallengecup')) {
+			TeamGenerator = require(`../data/random-battles/gen9/teams`).default;
 		} else {
 			TeamGenerator = require(`../data/random-battles/${mod}/teams`).default;
 		}

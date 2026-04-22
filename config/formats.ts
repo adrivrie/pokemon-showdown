@@ -275,6 +275,15 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "Champions",
 	},
 	{
+		name: "[Gen 9] Champions Challenge Cup",
+		desc: `Get a randomized team of level-balanced Pok&eacute;mon with absolutely any legal ability, moves, and item, and choose two to battle in a doubles format.`,
+		mod: 'champions',
+		team: 'randomCC',
+		gameType: 'doubles',
+		bestOfDefault: true,
+		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod', 'Team Preview', 'Picked Team Size = 4'],
+	},
+	{
 		name: "[Gen 9 Champions] OU",
 		mod: 'champions',
 		ruleset: ['Standard'],
