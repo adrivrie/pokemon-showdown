@@ -2202,12 +2202,14 @@ export class RandomTeams {
 			const moves = this.multipleSamplesNoReplace(pool, this.maxMoveCount);
 
 			// Random EVs
+			const isChampions = this.format.mod === 'champions';
 			const evs: StatsTable = { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0 };
 			const s: StatID[] = ["hp", "atk", "def", "spa", "spd", "spe"];
-			let evpool = 510;
+			let evpool = isChampions ? 66 : 510;
+			const evLimit = isChampions ? 32 : 256;
 			do {
 				const x = this.sample(s);
-				const y = this.random(Math.min(256 - evs[x], evpool + 1));
+				const y = this.random(Math.min(evLimit - evs[x], evpool + 1));
 				evs[x] += y;
 				evpool -= y;
 			} while (evpool > 0);
